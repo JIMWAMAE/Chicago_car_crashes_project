@@ -1,2 +1,5 @@
 #ignore data folder
 /data
+data/Vehicles.csv
+data/People.csv
+data/Crashes.csv
