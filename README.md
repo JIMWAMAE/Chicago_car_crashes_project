@@ -3,6 +3,7 @@
   <img src="https://github.com/JIMWAMAE/Chicago_car_crashes_project/blob/main/images/Chicago.jpg?raw=true" alt="Chicago">
 </div>
 Author- Jimcollins wamae
+
 LinkedIn - Jim Wamae
 
 ***
@@ -36,19 +37,26 @@ We conducted thorough data preparation on the provided datasets from the City of
 
 Our target had a distribution of .75 to .25. The 2 categories in the target are 1 for preventable and 0 for not preventable. Because our class balance was 2:1 , we did not SMOTE the minority class.
 
-We modeled the data through iterative modeling. We used a decision tree model as our first simple model.  
-We graded this model on accuracy score and it resulted in 0.72. This was our lowest score. Therefore we used this as our baseline. It was something simple and understandable yet still decent and something we could build on. 
-We also graded this model on precision and got a result of 0.71.
+We modeled the data through iterative modeling. The following are the models that were used and their order.
 
-our second model was the gradient boosting model which improved on the accuracy from our baseline model from 72% to 74%
+1. Decision Tree: Decision trees are often chosen as the initial model due to their simplicity and interpretability. They provide a baseline performance and can help in understanding the underlying patterns and relationships in the data. Decision trees are relatively easy to implement and provide a good starting point for more complex models.
 
-we still worked to improve our model perfomance using the Adaptive boosting classifier which increased the accuracy as well though by a small margin 74.2% - 74.3%.
+2. Gradient Boosting: Gradient boosting is a powerful ensemble method that combines multiple weak models (decision trees in this case) to create a stronger predictive model. It improves upon the shortcomings of individual decision trees by reducing bias and variance. Gradient boosting often produces better predictive performance compared to a single decision tree and can capture more complex patterns in the data.
 
-we further used other three models wich will be shown in the classification metrics table below.
+3. ADA Boosting: ADA boosting is another boosting algorithm that iteratively adjusts the weights of misclassified instances to build a strong model. It focuses on correcting the mistakes made by the previous models, thereby improving overall performance. ADA boosting can be effective in handling imbalanced datasets and can further enhance the predictive accuracy of the model.
+
+4. Logistic Regression: Logistic regression is a popular model for binary classification problems. It is used when the relationship between the predictors and the target variable is expected to be linear. Logistic regression provides interpretable coefficients and can help in understanding the impact of each predictor on the outcome. It is often included in the model selection process to compare the performance of linear models with more complex ones.
+
+5. XG Boost: XG Boost is an optimized implementation of gradient boosting that offers faster computation and better handling of large datasets. It is known for its efficiency and scalability, making it suitable for handling complex problems with a large number of features. XG Boost often provides competitive performance and can be used as an alternative or complement to other boosting algorithms.
+
+6. Random Forest: Random forest is an ensemble model that combines multiple decision trees and aggregates their predictions. It helps in reducing overfitting and improving generalization. Random forest models are robust and can handle a wide range of data types and feature interactions. They are often used as a benchmark or final model to compare against other algorithms and evaluate overall performance.
+
+ From the iterative model the models performed as such from the table below.
 
 <div style="text-align:center"><img src="https://github.com/JIMWAMAE/Chicago_car_crashes_project/blob/main/images/Model%20metrics.png?raw=true" alt="Model Metrics"></div>
 
-In conclusion, the objective of the project was to identify the causes of accidents in Chicago in order to help reduce them. The target variable was categorized into two classes: avoidable and unavoidable accidents. After evaluating multiple machine learning models, the Random Forest algorithm emerged as the best model for this task.
+The target variable was categorized into two classes: avoidable and unavoidable accidents.The best model overall was our final model with an accuracy score of 75% with the least accuracy score in our baseline model the decision tree classifier.
+
 
 
 ## Evaluation
