@@ -3,13 +3,17 @@
   <img src="https://github.com/JIMWAMAE/Chicago_car_crashes_project/blob/main/images/Chicago.jpg?raw=true" alt="Chicago">
 </div>
 Author- Jimcollins wamae
+LinkedIn - Jim Wamae
+
+***
+
 ## Overview
 
 Our objective was to develop inferential classification models for the Vehicle Safety Board of Chicago using cleaned and formatted data on crashes, vehicles, and individuals involved in accidents from 2016 to 2020. Our goal was to categorize the primary contributory causes of car accidents into two groups: avoidable and unnavoidable.
 
 ## Business Understanding
 
-The Vehicle Safety Board of Chicago has entrusted us with the task of conducting a comprehensive analysis of car crash data to enhance their understanding of the causes and factors influencing avoidable and unavoidable accidents in the region. Our project aims to delve deep into the available data, spanning from 2016 to 2020, to identify the primary contributory causes of crashes and uncover valuable insights that can drive actionable recommendations.
+The Vehicle Safety Board of Chicago (our stakeholder) has entrusted us with the task of conducting a comprehensive analysis of car crash data to enhance their understanding of the causes and factors influencing avoidable and unavoidable accidents in the region. Our project aims to delve deep into the available data, spanning from 2016 to 2020, to identify the primary contributory causes of crashes and uncover valuable insights that can drive actionable recommendations.
 
 By leveraging advanced data analysis techniques and employing various classification models, our objective is to decipher the underlying patterns, correlations, and trends within the crash data. This analysis will enable us to differentiate between avoidable and unavoidable accidents, shedding light on the key factors that contribute to each category.
 
@@ -42,6 +46,7 @@ we still worked to improve our model perfomance using the Adaptive boosting clas
 
 we further used other three models wich will be shown in the classification metrics table below.
 
+<div style="text-align:center"><img src="https://github.com/JIMWAMAE/Chicago_car_crashes_project/blob/main/images/Model%20metrics.png?raw=true" alt="Model Metrics"></div>
 
 In conclusion, the objective of the project was to identify the causes of accidents in Chicago in order to help reduce them. The target variable was categorized into two classes: avoidable and unavoidable accidents. After evaluating multiple machine learning models, the Random Forest algorithm emerged as the best model for this task.
 
@@ -59,6 +64,7 @@ These metrics indicate that the model performed well in predicting both avoidabl
 
 Based on accuracy we can view the overal model perfomance compared to previous models. 
 
+<div style="text-align:center"><img src="https://github.com/JIMWAMAE/Chicago_car_crashes_project/blob/main/images/Accuracy.png?raw=true" alt="Accuracy"></div>
 
 These results suggest that the random forest model can effectively identify the causes of accidents in Chicago, making it a valuable tool for reducing accidents by targeting specific risk factors. It provides a reliable framework for identifying avoidable and unavoidable accidents, enabling policymakers and relevant stakeholders to allocate resources and implement targeted interventions to mitigate the identified causes.
 
@@ -76,7 +82,7 @@ Based on our analysis, we have several recommendations to Vehicle Safety Board o
 
 3. Target the younger audience (age 20-39): Our analysis indicates that drivers within the age range of 20-39 accounted for a significant proportion of preventable crashes. Therefore, we recommend tailoring the driver education campaign to specifically target this demographic. By focusing on this age group, we can effectively address their unique driving behaviors and contribute to a substantial reduction in preventable accidents.
 
-4. Cost-effectiveness of driver education: It is worth noting that investing in driver education yields multiple benefits. Not only is it a cost-effective solution compared to solely repairing damaged roads, but it also saves significant labor costs in the long run. By addressing driver behavior and improving road awareness, we can create a safer driving environment for all road users.
+4. Increase traffic policing during the hours for 2 pm - 6pm and moreso on weekends. Most accidence seem to happen during this time period. Targeting peak traffic hours: By focusing on the time period of 2 pm - 6 pm, when traffic congestion is typically high, increased traffic policing can help manage traffic flow more efficiently. This can reduce the likelihood of accidents caused by reckless driving, speeding, or aggressive behavior during peak hours.
 
 By implementing these recommendations, we believe we can make substantial progress in reducing preventable crashes in the Chicago area. It is crucial to allocate resources and collaborate with relevant stakeholders to ensure the successful implementation of these measures. Together, we can create a safer road environment and work towards the goal of minimizing accidents and their associated consequences.
 
